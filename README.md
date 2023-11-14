@@ -10,6 +10,5 @@ This website will be created using Node.js as its backend and MongoDB as the dat
 
 | Project Role | Assigned to |
 | ----------- | ----------- |
-| Database Specialist | Mohammad Reza Raeisy |
 | Back-end Developer | Gaurav Saini |
 | Front-end Developer | Matthew Samun |
