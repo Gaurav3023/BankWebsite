@@ -6,7 +6,6 @@
 This website will be created using Node.js as its backend and MongoDB as the database to manage the data. We will be using React for the front-end.
 </p>
 
-**NOTE:** All documentation (.md files) are located [here](https://github.com/CAPSTONE-2022-2023/Group_21/tree/documents/text-documents). The deployment video can be found [here](https://www.youtube.com/watch?v=EJlNIBym2pc).
 
 | Project Role | Assigned to |
 | ----------- | ----------- |
