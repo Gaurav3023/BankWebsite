@@ -1,0 +1,137 @@
+* 
+{
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+
+body 
+{
+	background-image: linear-gradient(to top, #ff000000, #ff7300);
+	background-repeat: no-repeat;
+	padding: 5px;
+	font-family:"Playfair Display", serif; 
+}
+
+h1
+{
+	text-align: center;
+}
+
+h2
+{
+	text-align: center;
+}
+
+.bank-app-label
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+.bank-app-div
+{
+	margin: 0 auto;
+	border: 2px solid black;
+	border-radius: 3px;
+	padding: 15px;
+	font-family:"Playfair Display", serif; 
+}
+
+#bank-app-overview-container 
+{
+	background-color: white;
+	border: none;
+	height: 85vh;
+	width: 60vw;
+	padding: 15px;
+}
+/*
+	Every page has the title of the application, and use this as a foundation.
+	Created by: Veda (Style #11) [https://codepen.io/vedadesigns/pen/GPxYZg]
+*/
+.bank-app-title
+{
+	position: relative;
+	left: 15px;
+	font-size:30px;
+	text-align:center; 
+	line-height:1.5em; 
+	padding-bottom:45px; 
+	font-family:"Playfair Display", serif; 
+	text-transform:uppercase;
+	letter-spacing: 2px; 
+	color:#111;
+}
+  
+.bank-app-title:before 
+{
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+	width: 98%;
+	left:30%; margin-left:-30%;
+	height: 1px;
+	content: "";
+	background-color: #777; 
+	z-index: 4;
+}
+
+.bank-app-title:after 
+{
+	position:absolute;
+	width:40px; 
+	height:40px; 
+	left:49.4%; 
+	margin-left:-20px; 
+	bottom:0px;
+	content: '\00a7'; 
+	font-size:30px; 
+	line-height:40px; 
+	color:#e26803;
+	font-weight:400; z-index: 5;
+	display:block;
+	background-color:#f8f8f8;
+}
+
+/* 	All the buttons in the application use this as a foundation.
+	Created by: Gumpack (Button #87) [https://getcssscan.com/css-buttons-examples]
+*/
+.bank-app-buttons
+{
+	margin: auto;
+  	padding: 15px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	border-radius: 10px;
+	display: block;
+	border: 0px;
+	font-weight: 700;
+	box-shadow: 0px 0px 14px -7px #f09819;
+	background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	font-family:"Playfair Display", serif; 
+}
+
+.bank-app-buttons:hover 
+{
+	background-position: right center;
+  	color: #fff;
+  	text-decoration: none;
+}
+
+.bank-app-buttons:active 
+{
+  	transform: scale(0.95);
+}
+
+.hidden
+{
+	display: none;
+}

@@ -1,0 +1,25 @@
+#home-login-button
+{
+	display:inline-block;
+	position: relative;
+	font-size: 26px;
+	width: 220px;
+	left: -100px;
+}
+
+#home-register-button
+{
+	display:inline-block;
+	position: relative;
+	font-size: 26px;
+	left: 180px;
+	width: 220px;
+}
+
+#button-container
+{
+	border: none;
+	position: relative;
+	width: 50%;
+	top: 20%;
+}

@@ -1,0 +1,96 @@
+#main-overlay
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 25px 50px;
+	z-index: 1000;
+	border: 2px solid #ff7300;
+	border-radius: 5px;
+	font-family:"Playfair Display", serif; 
+}
+
+#overlay-background
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.65);
+	z-index: 1000;
+	font-family:"Playfair Display", serif; 
+}
+.hidden
+{
+	display: none;
+}
+
+#overlayButton-openAccount
+{
+	display: inline-block;
+	position: relative;
+	right: 15px;
+	/* top: 20px; */
+}
+
+#overlayButton-exit
+{
+	display: inline-block;
+	position: relative;
+	box-shadow: 0px 0px 14px -7px #eb5151;
+	background-image: linear-gradient(45deg, #e71414 0%, #eb5151  51%, #e71414  100%);
+	/* top: 20px; */
+	left: 25px;
+}
+
+ /* The container must be positioned relative: */
+.bank-account-dropdown 
+{
+	position: relative;
+	width: 150px;
+	left: 30px;
+	margin: auto;
+  	padding: 15px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	border-radius: 10px;
+	display: inline-block;
+	border: 0px;
+	font-weight: 700;
+	background-color: #ff7300;
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+#sendMoney-emailInput
+{
+	margin: 0;
+}
+
+#table-transaction-withdraw-amount
+{
+	color: red;
+}
+
+#table-transaction-deposit-amount
+{
+	color: green;
+}
+
+.bank-account-dropdown-option
+{
+	text-transform: uppercase;
+	/* color: #ffffff;
+	padding: 8px 16px;
+	border: 1px solid transparent;
+	border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+	cursor: pointer; */
+}
